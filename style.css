@@ -64,7 +64,7 @@ card {
     border-left: 6px solid #6b2d5c;
     border-radius: 10px;
 }
-card h3 {
+.card h3 {
     margin-top: 0;
 }
 footer {
