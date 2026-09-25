@@ -1,13 +1,14 @@
+
 body {
     background-color: brown;
-    color: #222222;
+    color: #220202;
     font-family: Arial, sans-serif;
     margin: 0;
 }
 
 header {
-    background-color: antiquewhite;
-    color: #333333; /* Alterado para escuro para garantir leitura sobre o fundo claro */
+    background-color: rgb(243, 183, 164);
+    color: #333333; 
     text-align: center;
     padding: 30px;
 }
@@ -17,32 +18,34 @@ h1 {
 }
 
 h2 {
-    color: #6b2d5c;
+    color: #2b0b0b;
 }
 
 p {
     font-size: 18px;
     line-height: 1.6;
 }
+
 nav {
-    margin-top:20px;
+    margin-top: 20px;
 }
 
 nav a {
-    color:white;
+    color: white;
     text-decoration: none;
-    background-color:rgb(255, 0, 0);
-    padding: 10px 15px;
-    border-radius: 8px;
+    background-color: #a30d0d;
+    padding: 10px 15px; 
+    border-radius: 8px; 
     margin: 5px;
-    display: inline block;
+    display: inline-block; 
 }
+
 nav a:hover {
-    background-color: #ff7d7d;
+    background-color: #d82b2b;
 }
 
 main {
-    width: 80%; /* Adicionado o ';' que faltava */
+    width: 80%;
     margin: auto;
 }
 
@@ -67,42 +70,42 @@ figcaption {
     color: #555555;
     margin-top: 8px;
 }
-card {
-    background-color: #f3d9fa;
+
+.card { 
+    background-color: #df8582;
     padding: 15px;
-    margin: 15px 0;
-    border-left: 6px solid #6b2d2d;
+    margin: 15px 0; 
+    border-left: 6px solid #420606; 
     border-radius: 10px;
 }
+
 .card h3 {
     margin-top: 0;
 }
+
 footer {
-    background-color: #222222;
+    background-color: #333333; 
     color: white;
     text-align: center;
-    padding: 20 px;
+    padding: 20px;
     margin-top: 30px;
 }
 
 button {
-    background-color:brown;
-    color:white;
+    background-color: #6b2d5c;
+    color: white;
     border: none;
     padding: 10px 15px;
     border-radius: 8px;
     cursor: pointer;
-
 }
 
 button:hover {
-    background-color:#6b2d5c;
-
+    background-color: #9b4d83;
 }
 
-curtir {
+.curtir {
     display: block;
     width: fit-content;
-    margin: 20 px auto;
-
+    margin: 20px auto;
 }
