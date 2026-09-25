@@ -27,6 +27,16 @@ p {
 nav {
     margin-top:20px;
 }
+
+nav a {
+    color:white;
+    text-decoration: none;
+    background-color:aqua;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin: 5px;
+    display: infinite block;
+}
 nav a:hover {
     background-color: #c77dff;
 }
@@ -73,4 +83,26 @@ footer {
     text-align: center;
     padding: 20 px;
     margin-top: 30px;
+}
+
+button {
+    background-color:brown;
+    color:white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color:#6b2d5c;
+
+}
+
+curtir {
+    display: block;
+    width: fit-content;
+    margin: 20 px auto;
+
 }
