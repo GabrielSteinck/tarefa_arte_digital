@@ -1,3 +1,16 @@
+:root{
+    --cor-fundo:rgb(243, 183, 164);
+    --cor-texto:#333333;
+    --cor-principal:#333333;
+    --cor-secundaria:#a30d0d;
+    --cor-hover:red;
+    --cor-superficie:white;
+    --cor-card:white;
+    --cor-legenda:#333333;
+    --cor-clara:white;
+    --cor-rodape:white;
+    
+}
 body {
     background-color: brown;
     color: #220202;
